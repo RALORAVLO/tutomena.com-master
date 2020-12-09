@@ -1,0 +1,7 @@
+# Redirects from what the browser requests to what we serve
+# https://www.netlify.com/docs/redirects/
+/articles/trois-nouvautes-majeurs-de-drupal-8/               /blog/
+/web-development/top-programming-languages-2019/             /top-programming-languages-2020/
+/wp-content/*             /
+https://tutomena.netlify.com/*  https://www.tutomena.com/:splat 301!
+https://www.tutomena.com/*/amp  https://www.tutomena.com/:splat 301!
